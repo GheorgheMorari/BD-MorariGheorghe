@@ -1,0 +1,42 @@
+Microsoft(R) Server Maintenance Utility (Unicode) Version 14.0.2027
+Report was generated on "TITSANDPICKLES".
+Maintenance Plan: Practica4
+Duration: 00:00:02
+Status: Succeeded.
+Details:
+
+Rebuild index on Local server connection
+Databases: Practica2
+Object: Tables and views
+10% of free space
+Task start: 2020-09-21T12:58:49.
+Task end: 2020-09-21T12:58:49.
+Success
+Command:
+GO
+
+
+
+Update Statistics on Local server connection
+Databases: Practica2
+Object: Tables and views
+All existing statistics
+Task start: 2020-09-21T12:58:51.
+Task end: 2020-09-21T12:58:51.
+Success
+Command:
+GO
+
+
+
+Cleanup history on Local server connection
+History type: Backup
+Age: Older than 6 Weeks
+Task start: 2020-09-21T12:58:51.
+Task end: 2020-09-21T12:58:51.
+Success
+Command:declare @dt datetime select @dt = cast(N''2020-08-10T12:58:51'' as datetime) exec msdb.dbo.sp_delete_backuphistory @dt
+
+GO
+
+

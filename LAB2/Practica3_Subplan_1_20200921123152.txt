@@ -1,0 +1,11 @@
+Microsoft(R) Server Maintenance Utility (Unicode) Version 14.0.2027
+Report was generated on "TITSANDPICKLES".
+Maintenance Plan: Practica3
+Duration: 00:00:00
+Status: Succeeded.
+Details:
+
+Task start: 2020-09-21T12:31:52.
+Task end: 2020-09-21T12:31:52.
+Success
+
